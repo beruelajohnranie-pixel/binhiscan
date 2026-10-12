@@ -1,0 +1,8 @@
+0 Class 0  Mais (Corn)
+1 Class 1  Kamatis (Tomato)
+2 Class 2  Talong (Eggplant)
+3 Class 3  Kangkong (Water Spinach)
+4 Class 4  Sitaw (Yardlong Bean)
+5 Class 5  Labanos (Radish)
+6 Class 6  Okra (Okra)
+7 Class 7  Pechay (Pechay)
