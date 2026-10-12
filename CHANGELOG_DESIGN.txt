@@ -1,6 +1,0 @@
-BinhiScan responsive design update
-- Refreshed responsive layout for desktop/tablet/mobile.
-- Kept existing HTML IDs and app.js behavior intact.
-- Unified index.html and BinhiScan.html to share style.css and app.js.
-- Added keyboard focus, touch feedback, reduced-motion handling, and mobile safe-area spacing.
-- No claim of retraining or fixing AI classification is made by this design-only update.
