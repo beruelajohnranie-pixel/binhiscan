@@ -102,4 +102,5 @@ ov("res");R.scrollTop=0;$("#rbk").onclick=()=>ov(null);$("#rdone").onclick=()=>{
 async function soilPhoto(f){if(!f)return;$("#sthumb").innerHTML=`<img class="thumb" src="${URL.createObjectURL(f)}" alt=""><p class="note" style="margin:8px 0 0" id="snote">Reading photo…</p>`;
 try{const r=await ask(`Look at this soil photo. Reply JSON only: {"soil":"Clay"|"Loam"|"Sandy","moisture":"Dry"|"Moist"|"Waterlogged"}`,f);if(CL.includes(r.soil))$("#so").value=r.soil;if(["Dry","Moist","Waterlogged"].includes(r.moisture))$("#mo").value=r.moisture;$("#snote").textContent="Visual estimate applied: "+r.soil+", "+r.moisture+". Please adjust if wrong."}catch(e){$("#snote").textContent="Photo saved as a visual reference. Select soil details below."}}
 $("#sp1").onchange=e=>soilPhoto(e.target.files[0]);$("#sp2").onchange=e=>soilPhoto(e.target.files[0]);
-go("home");\nloadSeedModel();
+go("home");
+loadSeedModel();
